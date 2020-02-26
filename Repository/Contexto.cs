@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using yu_geo_api.Models;
+using ygo_geo_api.Models;
 
-namespace yu_geo_api.Repository
+namespace ygo_geo_api.Repository
 {
     public class Contexto : DbContext
     {

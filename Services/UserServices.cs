@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using yu_geo_api.Models;
-using yu_geo_api.Repository;
+using ygo_geo_api.Models;
+using ygo_geo_api.Repository;
 
-namespace yu_geo_api.Services
+namespace ygo_geo_api.Services
 {
     public class UserServices
     {

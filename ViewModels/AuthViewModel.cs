@@ -1,6 +1,6 @@
-using yu_geo_api.Models;
+using ygo_geo_api.Models;
 
-namespace yu_geo_api.ViewModels
+namespace ygo_geo_api.ViewModels
 {
     public class AuthViewModel
     {

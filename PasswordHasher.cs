@@ -3,7 +3,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using Microsoft.Extensions.Options;
 
-namespace yu_geo_api
+namespace ygo_geo_api
 {
     public sealed class PasswordHasher : IPasswordHasher
     {

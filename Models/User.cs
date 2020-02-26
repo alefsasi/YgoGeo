@@ -1,4 +1,4 @@
-namespace yu_geo_api.Models
+namespace ygo_geo_api.Models
 {
     public class User
     {

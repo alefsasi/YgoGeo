@@ -1,10 +1,10 @@
 using System;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using yu_geo_api.Models;
-using yu_geo_api.Services;
+using ygo_geo_api.Models;
+using ygo_geo_api.Services;
 
-namespace yu_geo_api.Controllers {
+namespace ygo_geo_api.Controllers {
     [Route ("[controller]")]
     [ApiController]
     public class UserController : ControllerBase {

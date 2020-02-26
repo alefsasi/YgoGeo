@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace yu_geo_api
+namespace ygo_geo_api
 {
     public class AppSettings
     {

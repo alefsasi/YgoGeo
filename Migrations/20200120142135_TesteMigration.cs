@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace yu_geo_api.Migrations
+namespace ygo_geo_api.Migrations
 {
     public partial class TesteMigration : Migration
     {

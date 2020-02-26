@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using yu_geo_api.Models;
+using ygo_geo_api.Models;
 
-namespace yu_geo_api.Repository
+namespace ygo_geo_api.Repository
 {
     public class UserRepository
     {

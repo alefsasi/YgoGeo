@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using yu_geo_api.Repository;
+using ygo_geo_api.Repository;
 
-namespace yu_geo_api.Migrations
+namespace ygo_geo_api.Migrations
 {
     [DbContext(typeof(Contexto))]
     partial class ContextoModelSnapshot : ModelSnapshot

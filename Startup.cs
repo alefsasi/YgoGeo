@@ -10,10 +10,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using yu_geo_api.Repository;
-using yu_geo_api.Services;
+using ygo_geo_api.Repository;
+using ygo_geo_api.Services;
 
-namespace yu_geo_api
+namespace ygo_geo_api
 {
     public class Startup
     {

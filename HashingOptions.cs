@@ -1,4 +1,4 @@
-namespace yu_geo_api
+namespace ygo_geo_api
 {
     public sealed class HashingOptions
     {

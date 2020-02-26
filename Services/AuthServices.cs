@@ -4,10 +4,10 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using yu_geo_api.Models;
-using yu_geo_api.ViewModels;
+using ygo_geo_api.Models;
+using ygo_geo_api.ViewModels;
 
-namespace yu_geo_api.Services
+namespace ygo_geo_api.Services
 {
     public class AuthServices
     {
