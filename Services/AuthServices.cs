@@ -11,12 +11,12 @@ namespace ygo_geo_api.Services
 {
     public class AuthServices
     {
-        private readonly IOptions<AppSettings> appSettings;
+        private readonly IOptions<AppSettings> _appSettings;
         private readonly IPasswordHasher _passwordHasher;
         private readonly UserServices _userServices;
         public AuthServices(IOptions<AppSettings> app, IPasswordHasher passwordHasher, UserServices userServices)
         {
-            this.appSettings = app;
+            _appSettings = app;
             _passwordHasher = passwordHasher;
             _userServices = userServices;
 
@@ -47,7 +47,7 @@ namespace ygo_geo_api.Services
             }
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(appSettings.Value.SecreteKey);
+            var key = Encoding.ASCII.GetBytes(_appSettings.Value.SecreteKey);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[] {
