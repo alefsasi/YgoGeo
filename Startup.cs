@@ -31,9 +31,14 @@ namespace ygo_geo_api
             var key = Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings").GetSection("SecreteKey").Value);
 
 
-            var connection = Configuration["AppSettings:ConnectionString"];
-            services.AddDbContext<Contexto>(options =>
-                options.UseSqlite(connection)
+            // var connection = Configuration["AppSettings:ConnectionString"];
+            // services.AddDbContext<Contexto>(options =>
+            //     options.UseSqlite(connection)
+            // );
+            var connection = Configuration["AppSettings:ConnectionSQLServer"];
+            services.AddEntityFrameworkSqlServer()
+                .AddDbContext<Contexto>(
+                    options => options.UseSqlServer(connection)
             );
 
             services.AddCors();
