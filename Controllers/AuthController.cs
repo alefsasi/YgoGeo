@@ -25,9 +25,9 @@ namespace ygo_geo_api.Controllers
         {
             try
             {
-               // _authService.Signup(user);
-                //return Ok( new {message = "Created"});
-                return Ok("cs");
+                _authService.Signup(user);
+                return Ok(new { message = "Created" });
+           
             }
             catch (Exception ex)
             {

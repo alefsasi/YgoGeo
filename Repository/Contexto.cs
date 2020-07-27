@@ -11,7 +11,7 @@ namespace ygo_geo_api.Repository
         public DbSet<User> Usuarios { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<User>().HasKey(x => x.Id);
+            builder.Entity<User>().HasKey(x => x.Id); 
             base.OnModelCreating(builder);
         }
     }
